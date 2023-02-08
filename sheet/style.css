@@ -1,0 +1,32 @@
+.my-row{
+    background-color: bisque;
+    height: 400px;
+}
+.font-st{
+    font-family: "Copperplate";
+}
+.nav-bg{
+    background-color: #202238fc;
+}
+.card{
+    width: 18rem;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+}
+@media screen and (min-width: 577px) {
+    .card {
+      height: auto;  
+      width: 100%;
+    }
+}    
+
+@media screen and (max-width: 577px) {
+    .slide1 {
+      height: 90%;  
+      width: 100%;
+    }
+  }  
+ 
+.textSlide{
+    font-size: 10pz;
+}  
