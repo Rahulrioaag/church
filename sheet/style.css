@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+}
+.head1{
+    height: 60px;
+    width: 100%;
+}
 .my-row{
     background-color: bisque;
     height: 400px;
@@ -43,5 +50,8 @@
   }  
  
 .textSlide{
-    font-size: 10pz;
+    font-size: 10px;
 }  
+.collapse{
+    height: auto;
+}
