@@ -8,6 +8,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     background-color: #99b9ff;
+    color: wheat;
     /* background: linear-gradient(to bottom, #637f75 0%, #fb6cf6 100%); */
 }
 @media screen and (max-width: 577px) {
