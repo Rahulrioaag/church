@@ -14,7 +14,7 @@ let slideIndex = 0;
         dots[i].className = dots[i].className.replace(" active1", "");
       }
       slides[slideIndex-1].style.display = "flex";  
-      dots[slideIndex-1].className += " active";
+      dots[slideIndex-1].className += " active1";
       setTimeout(showSlides, 2000); 
       // Change image every 2 seconds
     }
