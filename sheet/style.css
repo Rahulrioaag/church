@@ -322,8 +322,8 @@
         display: flex;
         top: 0;
         left: 0;
-        height: 250px;
-        width: 550px;
+        height: 0px;
+        width: 0px;
         /* justify-content: center;
         align-items: center; */
         padding: 10px;
