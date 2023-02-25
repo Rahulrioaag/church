@@ -318,15 +318,12 @@
 }
 @media screen and (max-width: 577px) {
     .prayer{
-        position: relative;
-        display: flex;
         top: 0;
         left: 0;
         height: 0px;
         width: 0px;
         /* justify-content: center;
         align-items: center; */
-        padding: 10px;
     }    
 }
 /* slide */
