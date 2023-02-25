@@ -218,6 +218,13 @@
     display: flex;
     margin-left: 100px;
 }
+@media screen and (max-width: 577px) {
+    .heading1{
+        position: relative;
+        display: flex;
+        margin-left: 100px;
+    }
+}
 .lab{
     position: relative;
     display: flex;
@@ -227,6 +234,18 @@
     height: 30px;
     width: 200px;
     padding-left: 50px;
+}
+@media screen and (max-width: 577px) {
+    .lab{
+        position: relative;
+        display: flex;
+        font-size: 20px;
+        font-style: italic;
+        font-family: sans-serif;
+        height: 30px;
+        width: 200px;
+        padding-left: 50px;
+    }
 }
 
 .input-lab{
