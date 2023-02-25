@@ -337,8 +337,6 @@
 }
 @media screen and (max-width: 577px) {
     .prayer{
-        top: 0;
-        left: 0;
         height: 0px;
         width: 0px;
         /* justify-content: center;
