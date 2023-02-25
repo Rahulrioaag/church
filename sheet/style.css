@@ -213,9 +213,17 @@
 
 /* Prayer******************************************************************************************************* */
 
+.heading1{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+}
 .lab{
     position: relative;
     display: flex;
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
     height: 30px;
     width: 200px;
     padding-left: 50px;
@@ -224,19 +232,22 @@
 .input-lab{
     position: relative;
     display: flex;
-    height: 30px;
+    height: 40px;
     width: 600px;
     margin-left: 50px;
     margin-bottom: 20px;
+    border: 2px solid #2b5797;
+
 }
 @media screen and (max-width: 577px) {
     .input-lab{
         position: relative;
         display: flex;
-        height: 30px;
+        height: 40px;
         width: 400px;
         margin-left: 50px;
         margin-bottom: 20px;
+        border: 2px solid #2b5797;
     }
 } 
 
@@ -247,6 +258,8 @@
     width: 600px;
     margin-left: 50px;
     margin-bottom: 20px;
+    border: 2px solid #2b5797;
+
 }
 @media screen and (max-width: 577px) {
     .input-lab-text {
@@ -256,6 +269,8 @@
         width: 400px;
         margin-left: 50px;
         margin-bottom: 20px;
+        border: 2px solid #2b5797;
+
     }
 } 
 
@@ -292,6 +307,28 @@
     }
 }
 
+.prayer{
+    position: absolute;
+    display: inline;
+    top: 290px;
+    left: 700px;
+    height: 540px;
+    width: 800px;
+    border-radius: 0 15% 0 15% ;
+}
+@media screen and (max-width: 577px) {
+    .prayer{
+        position: relative;
+        display: flex;
+        top: 0;
+        left: 0;
+        height: 250px;
+        width: 550px;
+        /* justify-content: center;
+        align-items: center; */
+        padding: 10px;
+    }    
+}
 /* slide */
 
 * {box-sizing: border-box;}
