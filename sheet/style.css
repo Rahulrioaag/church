@@ -22,7 +22,7 @@ p{
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: #99b9ff;
+    background-color: #aac0f0;
     color: wheat;
     /* box-shadow: 0px -5px 5px rgb(117, 116, 116); */
     /* background: linear-gradient(to bottom, #64dcc2 0%, #6cdcfb 100%); */
@@ -40,9 +40,10 @@ p{
 }
 .nav-bg-co{
     display: flex;
+    flex-wrap: wrap;
     background-color: #2b5797;
     color: #141515;
-    width: 500px;
+    width: 800px;
 }
 @media screen and (max-width: 577px) {
     .head1 {
@@ -170,6 +171,8 @@ p{
     display: flex;
     height: 200px;
     width: 200px;
+    box-shadow: 10px 10px 5px rgba(139, 137, 137, 0.944);
+
 }
 
 /* media *******************************************************************************************************/
@@ -178,6 +181,7 @@ p{
     left: 250px;
     top: 15px;
     display: flex;
+    font-style: italic;
     height: 30px;
     width: 1200px;
     color: black;
@@ -251,6 +255,10 @@ p{
     position: relative;
     display: flex;
     margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+    text-decoration:underline;
+    font-style: oblique;
 }
 @media screen and (max-width: 577px) {
     .heading1{
@@ -309,8 +317,7 @@ p{
     margin-bottom: 20px; 
     border: 2px solid #2b5797;
     border-radius: 5px;
-
-
+    box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
 }
 @media screen and (max-width: 577px) {
     .input-lab{
@@ -322,6 +329,7 @@ p{
         margin-bottom: 20px;
         border: 2px solid #2b5797;
         border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
     }
 } 
 
@@ -334,7 +342,7 @@ p{
     margin-bottom: 20px;
     border: 2px solid #2b5797;
     border-radius: 5px;
-
+    box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
 
 }
 @media screen and (max-width: 577px) {
@@ -347,7 +355,7 @@ p{
         margin-bottom: 20px;
         border: 2px solid #2b5797;
         border-radius: 5px;
-        
+         box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
 
     }
 } 
@@ -366,6 +374,8 @@ p{
     border-radius: 20px;
     margin-bottom: 20px;
     color: white;
+    box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
+
 }
 @media screen and (max-width: 577px) {
     .button-submit{
@@ -382,13 +392,15 @@ p{
         border-radius: 20px;
         margin-bottom: 20px;
         color: white;
+    box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
+
     }
 }
 
 .prayer{
     position: absolute;
     display: flex;
-    top: 430px;
+    top: 480px;
     left: 700px;
     height: 540px;
     width: 800px;
