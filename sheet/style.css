@@ -199,8 +199,8 @@
     justify-content: center;
     line-height: 50px;
     /* margin-left: 50px; */
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 @media screen and (max-width: 577px) {
     .mediaHeading{
@@ -362,8 +362,8 @@
 
 .prayer{
     position: absolute;
-    display: inline;
-    top: 290px;
+    display: flex;
+    top: 270px;
     left: 700px;
     height: 540px;
     width: 800px;
