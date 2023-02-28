@@ -187,7 +187,7 @@ p{
     color: black;
     justify-content: center;
     align-items: center;
-    text-shadow: 1px 1px 2px rgb(249, 71, 181);
+    text-shadow: 1px 1px 2px rgba(29, 28, 4, 0.511);
 }
 @media screen and (max-width: 577px) {
     .marq {
@@ -255,11 +255,13 @@ p{
 .heading1{
     position: relative;
     display: flex;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     text-align: center;
     justify-content: center;
     text-decoration:underline;
-    font-style: oblique;
+    font-size: 50px;
+    color: #2b5797;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 577px) {
     .heading1{
@@ -274,9 +276,9 @@ p{
 
 .mainFormDiv{
     position: relative;
-    display:block;
-    /* flex-wrap:wrap; */
-    /* justify-content:space-around; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 577px) {
     .mainFormDiv{
@@ -286,6 +288,14 @@ p{
         justify-content: center;
     }
 }
+.formDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/creative-abstract-geometric-background-style-five_553575-25.avif);
+    background-size: 100%;
+
+}
 .lab{
     position: relative;
     display: flex;
@@ -293,8 +303,9 @@ p{
     font-style: italic;
     font-family: sans-serif;
     height: 30px;
-    width: 200px;
+    width: 300px;
     padding-left: 50px;
+    color: #0a0a0a;
 }
 @media screen and (max-width: 577px) {
     .lab{
@@ -378,7 +389,7 @@ p{
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    background-color: #2b5797;
+    background-color: #020202;
     margin-left: 50px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -396,7 +407,7 @@ p{
         font-size: 20px;
         justify-content: center;
         align-items: center;
-        background-color: #2b5797;
+        background-color: #020202;
         margin-left: 0px;
         border-radius: 20px;
         margin-bottom: 20px;
@@ -407,9 +418,9 @@ p{
 }
 
 .prayer{
-    position: absolute;
-    display: flex;
-    top: 480px;
+    position: relative;
+    display: block;
+    top: 0px;
     left: 700px;
     height: 540px;
     width: 800px;
@@ -518,7 +529,7 @@ p{
       }
       
       @keyframes fade {
-        from {opacity: .4} 
+        from {opacity: .6} 
         to {opacity: 1}
       }
       
@@ -526,3 +537,188 @@ p{
       @media only screen and (max-width: 300px) {
         .text {font-size: 11px}
       }
+
+/* contact************************************************************************************************************* */
+
+.headingCon{
+    position: relative;
+    display: flex;
+    /* margin-left: 100px; */
+    text-align: center;
+    justify-content: center;
+    text-decoration:underline;
+    font-size: 50px;
+    color: #2b5797;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 577px) {
+    .headingCon{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        line-height: 50px;
+    }
+}
+
+.contactheading{
+    position: relative;
+    display: flex;
+    /* margin-left: 100px; */
+    text-align: center;
+    justify-content: center;
+    /* text-decoration:underline; */
+    font-size: 30px;
+    color: #2b5797;
+    margin-bottom: 20px;
+}
+.mainFormDivCon{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 577px) {
+    .mainFormDivCon{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.formDivCon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/Pngtree—colorful\ triangle\ abstract\ business\ background_1458557.jpg);
+    background-size: 100%;
+
+}
+.labCon{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+    height: 30px;
+    width: 300px;
+    padding-left: 50px;
+    color: #0a0a0a;
+}
+@media screen and (max-width: 577px) {
+    .labCon{
+        position: relative;
+        display: flex;
+        font-size: 20px;
+        font-style: italic;
+        font-family: sans-serif;
+        height: 30px;
+        width: 300px;
+        padding-left: 0px;
+    }
+}
+
+.input-labCon{
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 20px; 
+    border: 2px solid #2b5797;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616); */
+    /* box-shadow: rgba(191, 191, 196, 0.933) 0px 30px 60px -12px inset, rgba(233, 224, 224, 0.862) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(218, 215, 215, 0.992) 0px -10px 8px -9px inset,5px 5px 10px rgba(139, 137, 137, 0.616);
+}
+@media screen and (max-width: 577px) {
+    .input-labCon{
+        position: relative;
+        display: flex;
+        height: 40px;
+        width: 320px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        border: 2px solid #2b5797;
+        border-radius: 5px;
+        /* box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616); */
+    box-shadow: rgba(218, 215, 215, 0.992) 0px -10px 8px -9px inset,5px 5px 10px rgba(139, 137, 137, 0.616);
+
+    }
+} 
+
+.input-lab-textCon{
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #2b5797;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616); */
+    box-shadow: rgba(218, 215, 215, 0.992) 0px -10px 8px -9px inset,5px 5px 10px rgba(139, 137, 137, 0.616);
+
+
+}
+@media screen and (max-width: 577px) {
+    .input-lab-textCon {
+        position: relative;
+        display: flex;
+        height: 150px;
+        width: 320px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        border: 2px solid #2b5797;
+        border-radius: 5px;
+         /* box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616); */
+        box-shadow: rgba(218, 215, 215, 0.992) 0px -30px 16px -18px inset,5px 5px 10px rgba(139, 137, 137, 0.616);
+
+
+    }
+} 
+
+.button-submitCon{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #020202;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
+
+}
+@media screen and (max-width: 577px) {
+    .button-submitCon{
+        position: relative;
+        display: flex;
+        height: 50px;
+        width: 320px;
+        font-family: sans-serif;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: #020202;
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        color: white;
+    box-shadow: 5px 5px 10px rgba(139, 137, 137, 0.616);
+
+    }
+}
+
+.mapSize{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+      
