@@ -256,6 +256,7 @@ p{
     position: relative;
     display: flex;
     /* margin-left: 100px; */
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     justify-content: center;
     text-decoration:underline;
@@ -544,6 +545,7 @@ p{
     position: relative;
     display: flex;
     /* margin-left: 100px; */
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     justify-content: center;
     text-decoration:underline;
