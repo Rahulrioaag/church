@@ -256,10 +256,10 @@ p{
     position: relative;
     display: flex;
     /* margin-left: 100px; */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial Black;
     text-align: center;
     justify-content: center;
-    text-decoration:underline;
+    /* text-decoration:underline; */
     font-size: 50px;
     color: #2b5797;
     margin-bottom: 20px;
@@ -270,6 +270,7 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 40px;
         margin-left: 0px;
         line-height: 50px;
     }
@@ -545,10 +546,10 @@ p{
     position: relative;
     display: flex;
     /* margin-left: 100px; */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial Black;
     text-align: center;
     justify-content: center;
-    text-decoration:underline;
+    /* text-decoration:underline; */
     font-size: 50px;
     color: #2b5797;
     margin-bottom: 20px;
@@ -559,6 +560,7 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 40px;
         margin-left: 0px;
         line-height: 50px;
     }
