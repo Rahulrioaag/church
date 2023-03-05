@@ -235,6 +235,10 @@ p{
     /* margin-left: 50px; */
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: Arial Black;
+    text-shadow: 10px 10px 2px rgba(29, 28, 4, 0.511);
+
+
 }
 @media screen and (max-width: 577px) {
     .mediaHeading{
@@ -245,6 +249,8 @@ p{
     font-family: Georgia, serif;
     font-size: 30px;
     font-weight: bolder;
+    font-family: Arial Black;
+    text-shadow: 10px 10px 2px rgba(29, 28, 4, 0.511);
 }
 }
 .media-card{
