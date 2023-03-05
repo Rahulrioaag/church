@@ -1,5 +1,14 @@
 *{
     margin: 0;
+    box-sizing: border-box;
+}
+.bgColor{
+    /* display: flex; */
+    /* height: 100vh; */
+    /* justify-content: center;
+    align-items:center ; */
+    margin: 0;
+    background: linear-gradient(135deg, #7aace6, #ed83db);
 }
 p{
     display: flex;
@@ -10,11 +19,13 @@ p{
 }
 .foot{ 
     position: sticky;
-    background-color: #2b5797; 
+    background-color: #fff; 
     height: 100px;
    left: 0;
    bottom: 0;
    width: 100%;
+   box-shadow: 0px -0px 5px rgb(117, 116, 116);
+
 }
 .head1{
     display: flex;
@@ -252,7 +263,7 @@ p{
 
 /* Prayer******************************************************************************************************* */
 
-.heading1{
+.prayerFormHeading{
     position: relative;
     display: flex;
     /* margin-left: 100px; */
@@ -261,8 +272,10 @@ p{
     justify-content: center;
     /* text-decoration:underline; */
     font-size: 50px;
-    color: #2b5797;
+    color:#fff;
     margin-bottom: 20px;
+    text-shadow: 10px 10px 2px rgba(29, 28, 4, 0.511);
+
 }
 @media screen and (max-width: 577px) {
     .heading1{
@@ -273,6 +286,8 @@ p{
         font-size: 40px;
         margin-left: 0px;
         line-height: 50px;
+    text-shadow: 1px 1px 2px rgba(29, 28, 4, 0.511);
+
     }
 }
 
@@ -290,11 +305,12 @@ p{
         justify-content: center;
     }
 }
-.formDiv{
+.prayerForm{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    background-image: url(../image/creative-abstract-geometric-background-style-five_553575-25.avif);
+    /* background-image: url(../image/creative-abstract-geometric-background-style-five_553575-25.avif); */
     background-size: 100%;
 
 }
@@ -307,7 +323,7 @@ p{
     height: 30px;
     width: 300px;
     padding-left: 50px;
-    color: #0a0a0a;
+    color: #fff;
 }
 @media screen and (max-width: 577px) {
     .lab{
@@ -387,11 +403,12 @@ p{
     display: flex;
     height: 50px;
     width: 600px;
-    font-family: sans-serif;
+    font-family: Arial Black;
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    background-color: #020202;
+    /* background-color: #020202; */
+    background: linear-gradient(135deg, #f40ccd, #0c78f4);
     margin-left: 50px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -405,11 +422,12 @@ p{
         display: flex;
         height: 50px;
         width: 320px;
-        font-family: sans-serif;
+        font-family: Arial Black;
         font-size: 20px;
         justify-content: center;
         align-items: center;
-        background-color: #020202;
+        /* background-color: #020202; */
+         background: linear-gradient(135deg, #f40ccd, #0c78f4);
         margin-left: 0px;
         border-radius: 20px;
         margin-bottom: 20px;
@@ -542,7 +560,7 @@ p{
 
 /* contact************************************************************************************************************* */
 
-.headingCon{
+.contactFormHeading{
     position: relative;
     display: flex;
     /* margin-left: 100px; */
@@ -553,6 +571,8 @@ p{
     font-size: 50px;
     color: #2b5797;
     margin-bottom: 20px;
+    text-shadow: 10px 10px 2px rgba(29, 28, 4, 0.511);
+
 }
 @media screen and (max-width: 577px) {
     .headingCon{
@@ -563,6 +583,9 @@ p{
         font-size: 40px;
         margin-left: 0px;
         line-height: 50px;
+    text-shadow: 10px 10px 2px rgba(29, 28, 4, 0.511);
+
+
     }
 }
 
